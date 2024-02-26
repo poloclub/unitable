@@ -1,0 +1,12 @@
+_target_: torchvision.datasets.CIFAR10
+root: ${hydra:runtime.cwd}/../data
+train: true
+transform:
+  _target_: torchvision.transforms.Compose
+  transforms:
+    - _target_: torchvision.transforms.Resize
+      size: ${trainer.img_size}
+    - _target_: torchvision.transforms.CenterCrop
+      size: ${trainer.img_size}
+    - _target_: torchvision.transforms.ToTensor
+download: true

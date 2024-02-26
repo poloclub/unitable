@@ -1,0 +1,3 @@
+need_vocab: true
+type: word piece
+dir: ${hydra:runtime.cwd}/../vocab/vocab_wordpiece_30k.json

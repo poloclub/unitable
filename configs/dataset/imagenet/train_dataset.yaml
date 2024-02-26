@@ -1,0 +1,9 @@
+_target_: torchvision.datasets.ImageFolder
+root: /raid/speng65/DATASETS/imagenet/train
+transform:
+  _target_: torchvision.transforms.Compose
+  transforms:
+    - _target_: torchvision.transforms.RandomResizedCrop
+      size: ${trainer.img_size}
+    - _target_: torchvision.transforms.RandomHorizontalFlip
+    - _target_: torchvision.transforms.ToTensor

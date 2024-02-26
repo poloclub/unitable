@@ -1,0 +1,3 @@
+need_vocab: true
+type: character
+dir: ${hydra:runtime.cwd}/../vocab/vocab_char.pt
