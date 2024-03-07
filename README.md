@@ -7,7 +7,7 @@
 > This repo includes code for linear projection Transformers. For convolutional stem (early convolution) Transformers, please check out our [tsr-convstem repo](https://github.com/poloclub/tsr-convstem). 
 
 # Try it out
-We provide a [Jupyter Notebook](https://github.com/ShengYun-Peng/adp-tables-private/blob/arxiv_v1/notebooks/full_pipeline.ipynb) that fully digitalize your tables with a single click.
+We provide a [Jupyter Notebook](https://github.com/poloclub/unitable/blob/main/notebooks/full_pipeline.ipynb) that fully digitalize your tables with a single click.
 Simply upload your tabular image by overwriting the <code>image_path</code> and proceed to run through the notebook.
 
 # News
