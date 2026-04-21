@@ -9,7 +9,7 @@ hydra-core
 hydra_colorlog
 apted
 Distance
-lxml==4.9.3
+lxml==6.1.0
 torchmetrics
 wandb
 einops
